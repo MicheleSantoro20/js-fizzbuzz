@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #083b4c;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background-color: #1389b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.verde {
+    background-color: #0bd6a1;
+}
+
+
+.giallo {
+    background-color: #ffd166;
+}
+
+.rosso {
+    background-color: #f0466f;
+}
